@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding: 0px;
+  
+}
+/* .para{
+    color: red;
+
+}
+p{
+    color: aliceblue;
+} */
+/* chooses all the ekements that have class of success */
+
+.success>p{
+   background-color: red;
+   color: gray;
+}
+/* another way of writting in in css first you write the element name p and then the id or class name */
+
+/* we're using a descendent selector here in where parent element which supercedes the child is wrriten first and then the element which is to be styled */
+div>p{
+    color: red;
+}
+/* child selector only selects first level direct children */
+section{
+    color: green;
+}
+.image{
+    background-repeat:no-repeat;
+    height:70vh;
+    width: 50vw;
+    margin: auto;
+    background-size: contain;
+    top: 0;
+  
+
+}
+
+
+
+
